@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: tan; */
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("\Projects\Project-3\Asets\proj bg.png");
+    background-size: cover;
+}
+
+.nav-bar {
+    margin: 10px 60px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img {
+    width: 100px;
+    /* height: 100px; */
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    /* text-decoration: none; */
+}
+
+.nav-menu ul li {
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    color: #ffc233;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-btn {
+    background-color: #ff515f;
+    padding: 5px 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.hero-des {
+    padding: 80px 200px;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1;
+    color: #ffc233;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    /* background-color: #ff515f; */
+    margin-top: 10px;
+}
+
+.main-btn button {
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #ff515f;
+    color: white;
+    padding: 20px 70px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    float: right;
+}
+
+footer img {
+    margin: 10px 60px;
+    width: 100px;
+    height: 100px;
+}
